@@ -94,9 +94,13 @@ func _interact_with_station() -> void:
 
 	won = true
 	spawn_timer.stop()
-	player.velocity = Vector2.ZERO
 	player.set_physics_process(false)
 	_show_message("Yay!!! Good job today boys you can go home")
+
+	get_tree().call_deferred(
+		"change_scene_to_file",
+		"res://win.tscn"
+	)
 
 
 func _show_message(message: String)-> void:
