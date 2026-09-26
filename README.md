@@ -17,3 +17,7 @@ Sponsors have 40% chance of denying you!
 
 
 CHEATS: Press P to call your Linkedin connections! (+3 sponsors auto finish)
+
+## I want to suffer
+
+Play it here: https://fengyuan66.itch.io/hack-club-run-3
